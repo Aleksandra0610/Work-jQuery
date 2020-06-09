@@ -1,0 +1,153 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}    
+    
+header{
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:#fff;
+}
+li {
+    list-style-type: none;
+    margin-right: 30px;
+} 
+ul{
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:150px;
+    font-size: 24px;
+}
+.desc_text,   .ppp{
+    width: 50%;
+    margin: auto;
+}
+.moto_block{
+    display: flex;
+    align-content: space-between;
+   justify-content: center;
+}
+.moto{
+    width: 320px;
+}
+.moto img{
+    width: 300px;
+    height: 200px;
+}
+.arrow{
+    color: red;
+    font-size: 20px;
+    
+}
+#more{
+    color: #fff;
+    background-color: red;
+    padding: 10px;
+}
+.b_u_block{
+    margin: auto;
+    background: url('back2.jpg');
+    background-position: initial;
+    background-size: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.b_u_content{
+    
+    width: 50%;  
+    background-color: rgba(250, 250, 250, 0.5);
+}
+.number_price{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+.b_u_content_text{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+}
+.number_price{
+    display: flex;
+    align-items: center;
+    color: #fff;
+   margin-right: 20px;
+   justify-content: center;
+}
+.blog-post-info {
+    font-size: 10px;
+   
+}
+.b_u_title, .b_u_price{
+    padding: 0;
+    margin: 0;
+}
+.logo_block{
+    
+    display: flex;
+    align-items: center;
+   
+   
+   justify-content: center;
+}
+.logo_block img{
+   padding: 0 60px;
+  }
+  .forma{
+      background-color: gray;
+      padding: 30px;
+  }
+  form{
+      text-align: left;
+      margin: auto;
+     padding: 20px;
+      width: 80%;
+      background-color: #fff;
+      display: flex;
+      justify-content: space-around;
+  }
+  .new{          
+    border:2px solid red;      
+    background:#e4d7e8;  
+    padding:5px;
+}  
+.fon_yellow{     
+    background:yellow;     
+    font:bold; } 
+
+.svitlo {font-size: 1.2em;
+    font-weight: 500;
+    background-color: #ffffff;
+    cursor:pointer;
+}
+.koshik-wrapper{    
+    border: 1px #E91010 solid;    
+    min-height: 200px;     
+    height: auto;    
+    width: 100%;   
+    margin-bottom: 15px;
+}   
+.full-koshik{     
+    border: 2px rgb(5, 167, 40) solid;
+} 
+.str{
+    background-color: red;
+}
+input[type='email']{
+    background-color: red;
+}
